@@ -1,0 +1,3 @@
+rootProject.name = 'springSocketHandle'
+include 'repository-common'
+project(':repository-common').projectDir = new File(settingsDir, '../repository-common')
